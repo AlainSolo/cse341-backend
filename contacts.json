@@ -1,0 +1,23 @@
+{
+  "contact": {
+    "firstName": "Steeve",
+    "lastName": "Solohery",
+    "email": "steeve3445@gmail.com",
+    "favoriteColor": "Blue",
+    "birthday": "02/25/13"
+  },
+  "contact2": {
+    "firstName": "Allin",
+    "lastName": "Solo",
+    "email": "allinh@gmail.c0m",
+    "favoriteColor": "grey",
+    "birthday": "23/07/10"
+  },
+  "contact3": {
+    "firstName": "Mia",
+    "lastName": "Solohery",
+    "email": "miah2345@gmail.com",
+    "favoriteColor": "Pink",
+    "birthday": "07/22/15"
+  }
+}
