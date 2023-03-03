@@ -5,8 +5,7 @@ GET http://localhost:8080/contacts
 // We use POST when we want  to send a create request 
 //we create the info manually
 ###
-POST http://localhost:8080/contacts
-
+POST http://localhost:8080/contacts  HTTP/1.1
 content-type: application/json
 
 {
@@ -15,7 +14,6 @@ content-type: application/json
     "email": "steeve3445@gmail.com",
     "favoriteColor": "Blue",
     "birthday": "02/25/13"
-
 }
 
 // We use PUT when we want  to update the data we have been created 
@@ -23,8 +21,7 @@ content-type: application/json
 //after we get the Id from the created info, 
 //we copy and paste the Id right after the contacts in the url 
 ###
-PUT http://localhost:8080/contacts/6401ff1697e15886ef54f5f6
-
+PUT http://localhost:8080/contacts/6401ff1697e15886ef54f5f6  HTTP/1.1
 content-type: application/json
 
 {
@@ -33,7 +30,6 @@ content-type: application/json
     "email": "Sr3445@gmail.com",
     "favoriteColor": "Red",
     "birthday": "02/25/14"
-
 }
 
 
@@ -41,4 +37,4 @@ content-type: application/json
 // anymore only the Id
 //we copy and paste the Id right after the DELETE URL
 ###
-DELETE  http://localhost:8080/contacts/6401ff1697e15886ef54f5f6
+DELETE  http://localhost:8080/contacts/6401ff1697e15886ef54f5f6  HTTP/1.1

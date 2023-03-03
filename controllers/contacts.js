@@ -41,8 +41,6 @@ const createInfo = async (req, res) => {
   } else {
     res.status(500).json(response.error || 'Some error occurred while creating the info.');
   }
-  
-  res.json(response);
 };
 //In case the data already in the database mongoDb, then we update the info
 const updateInfo = async (req, res) => {
